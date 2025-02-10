@@ -98,7 +98,7 @@ content:
         sub_title: Radio Access Network Integration Engineer 
         caption: October 2019 - November 2021
         quote: |
-          Currently working for Deutsche Telekom in Device testing & Certification. And responsible for: 
+          Worked as Integration Engineer on Mobily-(KSA) project. And responsible for: 
         description: | # this will include new lines to allow paragraphs
             - Integration, Troubleshooting, Analyzing, and Optimization of network performance KPIs and architecture were key responsibilities.  
             
@@ -109,21 +109,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: API Testing using SOAP UI
+        #link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          This is a personal project undertaken for self-directed learning.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          - Learned SOAP API testing using mock servers.
+          - Tested API functionality, performance, and error handling.
+          - Developed a self-initiated project that evolved into a fully-fledged application.
+          - Gained hands-on experience in API automation and quality assurance.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
