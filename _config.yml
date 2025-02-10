@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ali Iqrash
-title: Wireless Communication Engineer
+title: Cellular Communication Engineer
 email: Aliiqrash01@gmail.com
 phone: 01635154759
 # Dark Mode (true/false/never)
@@ -49,11 +49,10 @@ about_profile_image: images/profiles.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ali Iqrash and I'm a Radio Communication Engineer with 4 years of experience in 2G, 3G, 4G, and 5G across multiple operators and vendors. Seeking to apply my expertise at Prudential. 
 
-  ***I’m good at:***
-    - <u>Test Frameworks</u>: Pytest, Robot Framework, POSTMAN, SOAP
-    - <u>Python</u>: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib
-    - <u>Data Science</u>: Machine Learning, Data Analysis, Data Exploration
-    - <u>MATLAB</u> & Simulink
+  ***I'm good with:***
+    Radio Access Networks (RAN), Accuver XCAL, CMW/CMX500 (R&S), Shannon DM, QXDM, Wireshark, LTE/5G Core Network architecture, 4G/5G SIP, IMS, TCP, UDP signaling, GitLab/GitHub
+  ***And have skills of:***
+    <mark>Test Frameworks</mark>: Pytest, Robot Framework, POSTMAN, SOAP, <mark>Python</mark>: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib ,<mark>Data Science</mark>: Machine Learning, Data Analysis, Data Exploration and <mark>MATLAB</mark> & Simulink
  
 content:
 
@@ -202,8 +201,7 @@ content:
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - ISTQB (Certified Tester Foundation Level) - *2024*
       - Mastering OpenCV with Python - *2024*
-      - Huawei Certified ICT Professional (HCIP) LTE - *2020*
-      
+      - Huawei Certified ICT Professional (HCIP) LTE - *2020*   
       - Fully Funded Scholarship DAAD - *2022* 
       - Sur Place Scholarship for GRIAT DAAD - *2021* 
       
@@ -211,13 +209,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Biking
+      - Listening Music
+      - Reading TLDR
 
-      Look at this cool image  
-      ![Trees](/AleeEqrash.github.io/images/landscape-trees.jpg "Trees")
+      #Look at this cool image  
+      #![Trees](/AleeEqrash.github.io/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
