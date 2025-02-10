@@ -61,7 +61,7 @@ content:
         # link_text: boringcompany.com
         sub_title: Network Protocol Test Engineer 
         caption: November 2023 - Present
-        quote: >
+        quote: |
           Currently working for Deutsche Telekom in device testing & certification. And responsible for: 
         description: | # this will include new lines to allow paragraphs
             • Protocol Testing experience in LTE/5G NSA&SA/O-RAN Device 
