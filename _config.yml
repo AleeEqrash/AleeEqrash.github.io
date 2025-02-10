@@ -29,10 +29,10 @@ linkedin_username: ali-iqrash
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: aleeeqrash.github.io
-#  icon: fas fa-globe
-#  url: https://aleeeqrash.github.io/
+additional_links:
+- title: aleeeqrash.github.io
+  icon: fas fa-globe
+  url: https://aleeeqrash.github.io/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
