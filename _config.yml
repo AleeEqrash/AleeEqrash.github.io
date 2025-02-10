@@ -48,8 +48,13 @@ additional_links:
 about_profile_image: images/profiles.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ali Iqrash and I'm a Radio Communication Engineer with 4 years of experience in 2G, 3G, 4G, and 5G across multiple operators and vendors. Seeking to apply my expertise at Prudential. 
-  
-  I am most skilled in: <mark>5G NR</mark>, <mark>LTE</mark> and <mark>Eating Pizza</mark>
+
+  ***I'm good at:***  - Python: NumPy, Pandas, Scikitlearn, Seaborn, Matplotlib. 
+                      - MATLAB & Simulink. 
+                      - Data Science: Machine Learning, Data Analysis, Data Exploration,  
+                      - Pytest, Robot framework, POSTMAN, SOAP. 
+.
+  #<mark>I'm good at:</mark>I am most skilled in: <mark>5G NR</mark>, <mark>LTE</mark> and <mark>Eating Pizza</mark>
 
 content:
 
