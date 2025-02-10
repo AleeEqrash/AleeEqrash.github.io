@@ -50,11 +50,10 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ali Iqrash and I'm a Radio Communication Engineer with 4 years of experience in 2G, 3G, 4G, and 5G across multiple operators and vendors. Seeking to apply my expertise at Prudential. 
 
   ***I’m good at:***
-    - **Python**: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib
-    - **MATLAB & Simulink**
-    - **Data Science**: Machine Learning, Data Analysis, Data Exploration
-    - **Test Frameworks**: Pytest, Robot Framework, POSTMAN, SOAP
-
+    - <u>Test Frameworks</u>: Pytest, Robot Framework, POSTMAN, SOAP
+    - <u>Python</u>: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib
+    - <u>Data Science</u>: Machine Learning, Data Analysis, Data Exploration
+    - <u>MATLAB</u> & Simulink
  
 content:
 
@@ -75,7 +74,7 @@ content:
             - Writing 5G SA test cases and scenarios for handsets chipset testing.
             - Experience in the use of mobile phone testers or OTA chambers.             
             - Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS.             
-            - Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500. 
+            - *Tracing tools:* Accuver, QXDM, Shannon DM, CMW/CMX500. 
     #content:
       - layout: left
         title: MicroNova AG - Munich
@@ -197,6 +196,17 @@ content:
           University of Sargodha is a renowned public university in Pakistan, known for its strong emphasis on research and development (R&D).
         description: | # this will include new lines to allow paragraphs
           During my time at the University of Sargodha, I majored in Wireless Mobile Communication, Optical Fiber, and Signal Processing. I acquired a comprehensive understanding of wave propagation, antenna theory, and antenna design, and mastered advanced techniques and algorithms for the transmission and processing of digital information. This rigorous academic foundation has been instrumental in refining my technical expertise and problem-solving abilities.
+  - title: Certifications & Awards
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - ISTQB (Certified Tester Foundation Level) - *2024*
+      - Mastering OpenCV with Python - *2024*
+      - Huawei Certified ICT Professional (HCIP) LTE - *2020*
+      
+      - Fully Funded Scholarship DAAD - *2022* 
+      - Sur Place Scholarship for GRIAT DAAD - *2021* 
+      
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
