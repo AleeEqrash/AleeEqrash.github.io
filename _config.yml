@@ -181,9 +181,17 @@ content:
         caption: 2021 - Present
         sub_title: Master of Engineering (M.Eng.) - Communication and Signal Processing
         quote: >
-          The Technische Universität Ilmenau (Ilmenau University of Technology, TU Ilmenau) is a German public research university located in Ilmenau, Thuringia, central Germany. Founded in 1894, it comprises five academic faculties and specializes in technology, computer science, mathematics, natural sciences, business, and media.
+          Established in 1894, The Technische Universität Ilmenau (TU Ilmenau) is a German public research university located in Ilmenau, Thuringia, central Germany, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the Germany but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Technische Universität Ilmenau (TU Ilmenau), I developed key technical skills that have been fundamental throughout my career. I gained in-depth knowledge of <mark>Cellular Communication Systems</mark> and <mark>Advanced Mobile Communication Systems</mark>, along with expertise in <mark>Adaptive Array Signal Processing</mark> and <mark>Digital Signal Processing</mark>. Additionally, I built a strong understanding of <mark>Wireless Communication</mark>, including source coding and channel coding techniques. My academic experience not only enhanced my technical proficiency but also strengthened my problem-solving and analytical abilities.
+          During my time at Technische Universität Ilmenau (TU Ilmenau), I developed key technical competencies that have been fundamental to my career. I acquired in-depth knowledge of Cellular Communication Systems and Advanced Mobile Communication Systems, along with expertise in Adaptive Array Signal Processing and Digital Signal Processing. Additionally, I gained a strong understanding of Wireless Communication, including both source coding and channel coding techniques. I further expanded my skill set by studying advanced topics in mathematics and mathematical modeling of devices and systems, which enhanced my analytical and problem-solving abilities.
+      - layout: left
+        title: University of Sargodha 
+        caption: 2014 - 2018
+        sub_title: Bachelor of Engineering (B.E.) - Electrical Engineering 
+        quote: >
+          University of Sargodha is a renowned public university in Pakistan, known for its strong emphasis on research and development (R&D).
+        description: | # this will include new lines to allow paragraphs
+          During my time at the University of Sargodha, I majored in Wireless Mobile Communication, Optical Fiber, and Signal Processing. I acquired a comprehensive understanding of wave propagation, antenna theory, and antenna design, and mastered advanced techniques and algorithms for the transmission and processing of digital information. This rigorous academic foundation has been instrumental in refining my technical expertise and problem-solving abilities.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
