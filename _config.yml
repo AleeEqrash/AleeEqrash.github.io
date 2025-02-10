@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+#repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,8 +9,7 @@ version: 2
 name: Ali Iqrash
 title: Wireless Communication Engineer
 email: Aliiqrash01@gmail.com
-website: https://aleeeqrash.github.io/
-
+Phone: +491635154759
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -30,10 +29,10 @@ linkedin_username: ali-iqrash
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: aleeeqrash.github.io
+#  icon: fas fa-globe
+#  url: https://aleeeqrash.github.io/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
