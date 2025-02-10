@@ -75,7 +75,7 @@ content:
             • Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS. 
             
             • Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500. 
-    content:
+    #content:
       - layout: left
         title: MicroNova AG - Munich
         link: https://www.micronova.de/
@@ -90,10 +90,10 @@ content:
             • Working with development and design team for deployment and integration of slicing service catalogue as per 3GPP specifications.
             
             • Understanding of 5G RAN and core functions.
-    content:
+    #content:
       - layout: left
         title: Huawei Technologies Co., Ltd. - Pakistan
-        link: https://www.orbit.de/
+        link: https://www.huawei.com/
         # link_text: boringcompany.com
         sub_title: Radio Access Network Integration Engineer 
         caption: October 2019 - November 2021
