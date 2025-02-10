@@ -51,6 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   ***I'm good with:***
     Radio Access Networks (RAN), Accuver XCAL, CMW/CMX500 (R&S), Shannon DM, QXDM, Wireshark, LTE/5G Core Network architecture, 4G/5G SIP, IMS, TCP, UDP signaling, GitLab/GitHub
+  
   ***And have skills of:***
     <mark>Test Frameworks</mark>: Pytest, Robot Framework, POSTMAN, SOAP, <mark>Python</mark>: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib ,<mark>Data Science</mark>: Machine Learning, Data Analysis, Data Exploration and <mark>MATLAB</mark> & Simulink
  
@@ -213,8 +214,8 @@ content:
       - Listening Music
       - Reading TLDR
 
-      #Look at this cool image  
-      #![Trees](/AleeEqrash.github.io/images/landscape-trees.jpg "Trees")
+      and, interestingly I speak very good English, Urdu/Hindi and ein bisschen deutsch. ;)
+
 
 # Footer
 footer_show_references: true
