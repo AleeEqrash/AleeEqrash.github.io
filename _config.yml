@@ -62,13 +62,18 @@ content:
         sub_title: Network Protocol Test Engineer 
         caption: November 2023 - Present
         quote: >
-          Working for Deutsche Telekom
+          Currently working for Deutsche Telekom in device testing & certification. And responsible for: 
         description: | # this will include new lines to allow paragraphs
             • Protocol Testing experience in LTE/5G NSA&SA/O-RAN Device 
-            • Handset and Chipsets for DT standards on network simulators. 
-            • Writing 5G SA test cases and scenarios for handsets chipset testing. 
+            
+            • Handset and Chipsets for DT standards on network simulators.
+            
+            • Writing 5G SA test cases and scenarios for handsets chipset testing.
+
             • Experience in the use of mobile phone testers or OTA chambers. 
+            
             • Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS. 
+            
             • Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500. 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
