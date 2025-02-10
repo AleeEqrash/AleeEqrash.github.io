@@ -64,16 +64,11 @@ content:
         quote: |
           Currently working for Deutsche Telekom in Device testing & Certification. And responsible for: 
         description: | # this will include new lines to allow paragraphs
-            - Protocol Testing experience in LTE/5G NSA&SA/O-RAN Device. 
-            
-            - Handset and Chipsets for DT standards on network simulators.
-            
+            - Protocol Testing experience in LTE/5G NSA&SA/O-RAN Device.             
+            - Handset and Chipsets for DT standards on network simulators.            
             - Writing 5G SA test cases and scenarios for handsets chipset testing.
-
-            - Experience in the use of mobile phone testers or OTA chambers. 
-            
-            - Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS. 
-            
+            - Experience in the use of mobile phone testers or OTA chambers.             
+            - Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS.             
             - Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500. 
     #content:
       - layout: left
@@ -85,10 +80,8 @@ content:
         quote: |
           Was working student and responsibilities were: 
         description: | # this will include new lines to allow paragraphs
-            - Working on 5G Networking Slicing POC project for Telefonica. 
-            
-            - Working with development and design team for deployment and integration of slicing service catalogue as per 3GPP specifications.
-            
+            - Working on 5G Networking Slicing POC project for Telefonica.             
+            - Working with development and design team for deployment and integration of slicing service catalogue as per 3GPP specifications.            
             - Understanding of 5G RAN and core functions.
     #content:
       - layout: left
@@ -100,16 +93,15 @@ content:
         quote: |
           Worked as Integration Engineer on Mobily-(KSA) project. And responsible for: 
         description: | # this will include new lines to allow paragraphs
-            - Integration, Troubleshooting, Analyzing, and Optimization of network performance KPIs and architecture were key responsibilities.  
-            
-            - Integration of sites according to acceptance criteria for different scenarios i.e., 5G, LTE Carrier addition, Multi RAN to Single RAN, MIMO 4T4R, 32T32R, 64T64R. 
-            
+            - Integration, Troubleshooting, Analyzing, and Optimization of network performance KPIs and architecture were key responsibilities.              
+            - Integration of sites according to acceptance criteria for different scenarios i.e., 5G, LTE Carrier addition, Multi RAN to Single RAN, MIMO 4T4R, 32T32R, 64T64R.             
             - Managed a team of 5 engineers and delivered 1200 sites of NB-IoT expansion in 3 months.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: API Testing using SOAP UI
+        caption: November 2024 – January 2025
         #link: github.com/sproogen
         # link_text: Project Website
         #additional_links:
@@ -126,7 +118,58 @@ content:
           - Tested API functionality, performance, and error handling.
           - Developed a self-initiated project that evolved into a fully-fledged application.
           - Gained hands-on experience in API automation and quality assurance.
-
+      - layout: left
+        title: Implementation of SON function of MRO as xApp on Open-RAN based RIC
+        caption: October 2022 – February 2023
+        #link: github.com/sproogen
+        # link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          As Advnace Research Project during my Masters Degree at TU Ilmenau I did this project and learnt:
+        description: | # this will include new lines to allow paragraphs
+          - Installation and setup of ONOS RIC, RAN simulator and, apps. 
+          - Adapting in-house SON function of MRO/MLB as a xApp using the specific Interface/APIs crowded by CNOS.
+          - Design and implement a SON function for URLLC applications. based on the features supported by the RAN simulation.
+          - Measurements and comparison of the results.
+      - layout: left
+        title: Real-Time Load Estimation of Cell in LTE Network  
+        caption: November 2021 – July 2022
+        #link: github.com/sproogen
+        # link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >Completed this project as a Basic Research Project during the first year of my Master's at Kazan National Research Technical University. This project played a fundamental role in shaping my career.
+        description: | # this will include new lines to allow paragraphs
+          - The fundamental idea behind this was to estimate the LTE cell’s information load, using real-time signal, by decoding DCI messages in the LTE physical control channel and determining the number of unique identifiers. 
+          - Implemented algorithm on SDRs and developed a prototype. 
+          - Tested on more than 5 commercial sites of different vendors and successfully detected users with an efficiency of up to 90 percent. 
+      - layout: left
+        title: Enhancing Security via Speaker Recognition  
+        caption: 2017 - 2018
+        #link: github.com/sproogen
+        # link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >Completed this project as my Final Year Project as part of my undergraduate degree at University of Sargodha.
+        description: | # this will include new lines to allow paragraphs
+          - Worked on real-time human speech processing, extraction of Mel-frequency Cepstral Coefficients (MFCC), and matching of voice signal’s unique features by Vector quantization (VQ) in MATLAB.
+          - The developed system can be used for enhancing cyber security which overcomes the issues such as online banking where customers are prone to theft using fake identities. 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
