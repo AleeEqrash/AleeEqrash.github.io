@@ -1,5 +1,5 @@
 # Site
-#repository: sproogen/resume-theme
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,7 +9,7 @@ version: 2
 name: Ali Iqrash
 title: Wireless Communication Engineer
 email: Aliiqrash01@gmail.com
-Phone: +491635154759
+phone: +491635154759
 # Dark Mode (true/false/never)
 darkmode: false
 
