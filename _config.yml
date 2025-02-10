@@ -64,17 +64,17 @@ content:
         quote: |
           Currently working for Deutsche Telekom in Device testing & Certification. And responsible for: 
         description: | # this will include new lines to allow paragraphs
-            • Protocol Testing experience in LTE/5G NSA&SA/O-RAN Device. 
+            - Protocol Testing experience in LTE/5G NSA&SA/O-RAN Device. 
             
-            • Handset and Chipsets for DT standards on network simulators.
+            - Handset and Chipsets for DT standards on network simulators.
             
-            • Writing 5G SA test cases and scenarios for handsets chipset testing.
+            - Writing 5G SA test cases and scenarios for handsets chipset testing.
 
-            • Experience in the use of mobile phone testers or OTA chambers. 
+            - Experience in the use of mobile phone testers or OTA chambers. 
             
-            • Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS. 
+            - Hand on experience in 3GPP standards for VoWiFi, ePDG, and IMS. 
             
-            • Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500. 
+            - Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500. 
     #content:
       - layout: left
         title: MicroNova AG - Munich
@@ -85,11 +85,11 @@ content:
         quote: |
           Was working student and responsibilities were: 
         description: | # this will include new lines to allow paragraphs
-            • Working on 5G Networking Slicing POC project for Telefonica. 
+            - Working on 5G Networking Slicing POC project for Telefonica. 
             
-            • Working with development and design team for deployment and integration of slicing service catalogue as per 3GPP specifications.
+            - Working with development and design team for deployment and integration of slicing service catalogue as per 3GPP specifications.
             
-            • Understanding of 5G RAN and core functions.
+            - Understanding of 5G RAN and core functions.
     #content:
       - layout: left
         title: Huawei Technologies Co., Ltd. - Pakistan
@@ -100,11 +100,11 @@ content:
         quote: |
           Currently working for Deutsche Telekom in Device testing & Certification. And responsible for: 
         description: | # this will include new lines to allow paragraphs
-            • Integration, Troubleshooting, Analyzing, and Optimization of network performance KPIs and architecture were key responsibilities.  
+            - Integration, Troubleshooting, Analyzing, and Optimization of network performance KPIs and architecture were key responsibilities.  
             
-            • Integration of sites according to acceptance criteria for different scenarios i.e., 5G, LTE Carrier addition, Multi RAN to Single RAN, MIMO 4T4R, 32T32R, 64T64R. 
+            - Integration of sites according to acceptance criteria for different scenarios i.e., 5G, LTE Carrier addition, Multi RAN to Single RAN, MIMO 4T4R, 32T32R, 64T64R. 
             
-            • Managed a team of 5 engineers and delivered 1200 sites of NB-IoT expansion in 3 months.
+            - Managed a team of 5 engineers and delivered 1200 sites of NB-IoT expansion in 3 months.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
