@@ -149,7 +149,8 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >Completed this project as a Basic Research Project during the first year of my Master's at Kazan National Research Technical University. This project played a fundamental role in shaping my career.
+        quote: >
+          Completed this project as a Basic Research Project during the first year of my Master's at Kazan National Research Technical University. This project played a fundamental role in shaping my career.
         description: | # this will include new lines to allow paragraphs
           - The fundamental idea behind this was to estimate the LTE cell’s information load, using real-time signal, by decoding DCI messages in the LTE physical control channel and determining the number of unique identifiers. 
           - Implemented algorithm on SDRs and developed a prototype. 
@@ -166,7 +167,8 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >Completed this project as my Final Year Project as part of my undergraduate degree at University of Sargodha.
+        quote: >
+          Completed this project as my Final Year Project as part of my undergraduate degree at University of Sargodha.
         description: | # this will include new lines to allow paragraphs
           - Worked on real-time human speech processing, extraction of Mel-frequency Cepstral Coefficients (MFCC), and matching of voice signal’s unique features by Vector quantization (VQ) in MATLAB.
           - The developed system can be used for enhancing cyber security which overcomes the issues such as online banking where customers are prone to theft using fake identities. 
