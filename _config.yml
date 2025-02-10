@@ -48,6 +48,7 @@ additional_links:
 about_profile_image: images/profiles.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ali Iqrash and I'm a Radio Communication Engineer with 4 years of experience in 2G, 3G, 4G, and 5G across multiple operators and vendors. Seeking to apply my expertise at Prudential. 
+  
   I am most skilled in: <mark>5G NR</mark>, <mark>LTE</mark> and <mark>Eating Pizza</mark>
 
 content:
@@ -176,16 +177,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Technische Universität Ilmenau
+        caption: 2021 - Present
+        sub_title: Master of Engineering (M.Eng.) - Communication and Signal Processing
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          The Technische Universität Ilmenau (Ilmenau University of Technology, TU Ilmenau) is a German public research university located in Ilmenau, Thuringia, central Germany. Founded in 1894, it comprises five academic faculties and specializes in technology, computer science, mathematics, natural sciences, business, and media.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+          During my time at Technische Universität Ilmenau (TU Ilmenau), I developed key technical skills that have been fundamental throughout my career. I gained in-depth knowledge of <mark>Cellular Communication Systems</mark> and <mark>Advanced Mobile Communication Systems</mark>, along with expertise in <mark>Adaptive Array Signal Processing</mark> and <mark>Digital Signal Processing</mark>. Additionally, I built a strong understanding of <mark>Wireless Communication</mark>, including source coding and channel coding techniques. My academic experience not only enhanced my technical proficiency but also strengthened my problem-solving and analytical abilities.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
