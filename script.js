@@ -24,6 +24,15 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Back to top: JS smooth scroll (anchor to the sticky header is unreliable,
+// the sticky element is already "at" the viewport top so browsers don't scroll)
+document.querySelectorAll('a[href="#top"]').forEach(a => {
+  a.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+
 // Active nav highlighting
 const sections = [...document.querySelectorAll('main section[id]')];
 const navA = [...document.querySelectorAll('.links a')];

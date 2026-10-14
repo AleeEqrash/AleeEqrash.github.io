@@ -73,9 +73,12 @@ a{color:inherit}
 .badge{display:inline-block;font-size:.7rem;background:var(--accent);color:#fff;border-radius:999px;padding:2px 9px;vertical-align:middle;margin-left:6px}
 
 /* Certs */
-.certs{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:20px}
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
 .certs div{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff;text-align:center}
 .certs strong{display:block}.certs span{font-size:.8rem;color:var(--muted)}
+.certs div.latest{border:2px solid var(--accent)}
+.certs div a{font-size:.82rem;font-weight:600;color:var(--accent-ink);text-decoration:none}
+.certs div a:hover{text-decoration:underline}
 .about-extra{margin-top:20px;border-left:4px solid var(--accent);padding:4px 16px;background:#fff;border-radius:0 12px 12px 0;border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
 
 /* CTA */
