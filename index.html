@@ -1,277 +1,658 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ali Iqrash — System Engineer @ Deutsche Telekom</title>
-<meta name="description" content="Ali Iqrash, System Engineer in Group Network Technology (GNT) at Deutsche Telekom Bonn. 5G SA/NSA, O-RAN, Device Certification, Network Slicing, UL/DL Carrier Aggregation." />
-<link rel="icon" href="images/favicon.ico" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Ali Iqrash — 5G Device Certification Engineer | Deutsche Telekom</title>
+<meta name="description" content="System Engineer at Deutsche Telekom (GNT), Bonn — 5G SA/NSA device integration &amp; certification, network slicing, UL/DL CA, O-RAN and test automation." />
+<meta name="author" content="Ali Iqrash" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<link rel="canonical" href="https://aleeqrash.github.io/" />
+<link rel="alternate" hreflang="en" href="https://aleeqrash.github.io/" />
+<link rel="alternate" hreflang="de" href="https://aleeqrash.github.io/index-de.html" />
+<link rel="alternate" hreflang="x-default" href="https://aleeqrash.github.io/" />
+<link rel="alternate" type="text/plain" href="https://aleeqrash.github.io/llms.txt" title="LLM-readable summary" />
+<meta name="theme-color" content="#070b12" />
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="images/favicon.ico" sizes="any" />
+<link rel="apple-touch-icon" href="images/profiles-400.jpg" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Ali Iqrash" />
+<meta property="og:title" content="Ali Iqrash — 5G Device Certification Engineer" />
+<meta property="og:description" content="System Engineer at Deutsche Telekom (GNT), Bonn. 5G SA/NSA device integration &amp; certification, network slicing, UL/DL carrier aggregation, O-RAN and test automation." />
+<meta property="og:url" content="https://aleeqrash.github.io/" />
+<meta property="og:image" content="https://aleeqrash.github.io/images/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Ali Iqrash — 5G Device Certification Engineer at Deutsche Telekom, Bonn" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:locale:alternate" content="de_DE" />
+<meta property="profile:first_name" content="Ali" />
+<meta property="profile:last_name" content="Iqrash" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ali Iqrash — 5G Device Certification Engineer" />
+<meta name="twitter:description" content="System Engineer at Deutsche Telekom (GNT), Bonn. 5G SA/NSA device certification, network slicing, UL/DL CA and O-RAN." />
+<meta name="twitter:image" content="https://aleeqrash.github.io/images/og-image.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
-<link rel="alternate" hreflang="de" href="index-de.html" />
-<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+
+<script>
+  document.documentElement.classList.add('js');
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+  } catch (e) {}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://aleeqrash.github.io/#person",
+      "name": "Ali Iqrash",
+      "givenName": "Ali",
+      "familyName": "Iqrash",
+      "jobTitle": "System Engineer — 5G Device Integration & Certification",
+      "description": "System Engineer in Group Network Technology (GNT) at Deutsche Telekom, Bonn. Works on 5G SA/NSA device integration and certification, network slicing, UL/DL carrier aggregation, O-RAN and test automation.",
+      "url": "https://aleeqrash.github.io/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://aleeqrash.github.io/images/profiles.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      "email": "mailto:Aliiqrash01@gmail.com",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Deutsche Telekom",
+        "url": "https://www.telekom.com/",
+        "department": {
+          "@type": "Organization",
+          "name": "Group Network Technology (GNT)"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bonn",
+        "addressCountry": "DE"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Technische Universität Ilmenau",
+          "url": "https://www.tu-ilmenau.de/"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Sargodha"
+        }
+      ],
+      "knowsAbout": [
+        "5G NR",
+        "5G SA",
+        "5G NSA",
+        "LTE",
+        "O-RAN",
+        "Network Slicing",
+        "Carrier Aggregation",
+        "Device certification",
+        "Protocol testing",
+        "VoWiFi",
+        "IMS",
+        "Test automation",
+        "Python"
+      ],
+      "knowsLanguage": [
+        { "@type": "Language", "name": "English" },
+        { "@type": "Language", "name": "Urdu" },
+        { "@type": "Language", "name": "Hindi" },
+        { "@type": "Language", "name": "German" }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "ISTQB Certified Tester Foundation Level",
+          "dateCreated": "2024-03",
+          "url": "https://aleeqrash.github.io/docs/certificates/istqb-ctfl-2024.pdf"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Huawei Certified ICT Professional — LTE",
+          "dateCreated": "2020",
+          "url": "https://aleeqrash.github.io/docs/certificates/hcip-lte-2020.pdf"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/ali-iqrash",
+        "https://github.com/AleeEqrash"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://aleeqrash.github.io/#website",
+      "url": "https://aleeqrash.github.io/",
+      "name": "Ali Iqrash — 5G Device Certification Engineer",
+      "inLanguage": ["en", "de"],
+      "publisher": { "@id": "https://aleeqrash.github.io/#person" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://aleeqrash.github.io/#page",
+      "url": "https://aleeqrash.github.io/",
+      "name": "Ali Iqrash — 5G Device Certification Engineer",
+      "description": "Portfolio of Ali Iqrash, System Engineer in Group Network Technology at Deutsche Telekom, Bonn.",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://aleeqrash.github.io/#website" },
+      "about": { "@id": "https://aleeqrash.github.io/#person" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://aleeqrash.github.io/images/og-image.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "dateModified": "2026-10-19"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aleeqrash.github.io/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Ali Iqrash?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ali Iqrash is a System Engineer in Group Network Technology (GNT) at Deutsche Telekom in Bonn, Germany. He focuses on 5G SA/NSA device integration, certification and release validation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Ali Iqrash work on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "He integrates and validates new network features such as network slicing and UL/DL carrier aggregation, writes 5G SA test cases for handsets and chipsets, and sets up test environments with network simulators, phone testers and OTA chambers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which tools and technologies does Ali Iqrash use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accuver XCAL, QXDM, Shannon DM, Rohde & Schwarz CMW/CMX500 and Wireshark, plus Python, pytest, Robot Framework, POSTMAN and SOAP UI. Standards include 3GPP, LTE, 5G NSA/SA, O-RAN, SIP/IMS and TCP/UDP."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Ali Iqrash based and is he open to roles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "He is based in Bonn, Germany and works at Deutsche Telekom. He is open to collaboration and conversations about 5G certification, network slicing, carrier aggregation and test automation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are Ali Iqrash's qualifications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "M.Eng. in Communication and Signal Processing at TU Ilmenau (thesis in progress), B.E. in Electrical Engineering from the University of Sargodha, ISTQB Certified Tester Foundation Level (2024) and Huawei HCIP LTE (2020)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Ali Iqrash speak German?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "He speaks English fluently, Urdu and Hindi natively, and German at B1 level, which is improving."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
-<body>
-<header class="nav" id="top">
-  <div class="container nav-inner">
-    <a href="#top" class="brand">Ali<span>.</span> Iqrash</a>
-    <nav class="links" id="navLinks">
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Ali Iqrash — back to top">
+      <span class="brand-mark" aria-hidden="true">AI</span>
+      <span class="brand-name">Ali Iqrash<span class="brand-dot">.</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
+      <div class="nav-meta">
+        <span class="lang-switch" aria-label="Language">
+          <a href="index.html" class="is-active" aria-current="page">EN</a>
+          <a href="index-de.html" lang="de" hreflang="de">DE</a>
+        </span>
+        <button class="btn btn-ghost btn-sm" type="button" data-print>Print CV</button>
+      </div>
     </nav>
-    <div class="nav-actions">
-      <span class="lang-switch"><a href="index.html" class="active">EN</a><a href="index-de.html">DE</a></span>
-      <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
-      <button class="btn btn-small no-print" onclick="window.print()">Print CV</button>
-      <a class="btn btn-small" href="mailto:Aliiqrash01@gmail.com">Hire Me</a>
-      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+
+    <div class="header-actions">
+      <span class="lang-switch header-lang" aria-label="Language">
+        <a href="index.html" class="is-active" aria-current="page">EN</a>
+        <a href="index-de.html" lang="de" hreflang="de">DE</a>
+      </span>
+      <button class="icon-btn" type="button" id="themeBtn" aria-label="Switch to light theme" aria-pressed="false">
+        <svg class="icon icon-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <svg class="icon icon-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4m0-14.2-1.4 1.4M6.3 17.7l-1.4 1.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm header-cta" href="mailto:Aliiqrash01@gmail.com">Email me</a>
+      <button class="menu-btn" type="button" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
     </div>
   </div>
 </header>
 
-<main>
-<!-- HERO -->
-<section class="hero container">
-  <div class="hero-text reveal">
-    <p class="eyebrow"><span class="dot"></span> Available — Bonn, Germany · GNT @ Deutsche Telekom</p>
-    <h1>System Engineer for <span class="accent">5G Device</span> Integration & Certification</h1>
-    <p class="lede">I’m <strong>Ali Iqrash</strong> — I integrate and validate new network features on recent releases (Network Slicing, UL/DL Carrier Aggregation), write test cases, and bring up test environments for 5G SA/NSA, O-RAN and LTE devices.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="#experience">View Experience</a>
-      <button class="btn btn-ghost" onclick="window.print()">🖨️ Print CV</button>
-      <a class="btn btn-ghost" href="https://github.com/AleeEqrash" target="_blank" rel="noopener">GitHub ↗</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/ali-iqrash" target="_blank" rel="noopener">LinkedIn ↗</a>
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="status"><span class="status-dot" aria-hidden="true"></span> Bonn, Germany <span class="status-sep" aria-hidden="true">/</span> GNT @ Deutsche Telekom</p>
+      <h1 id="hero-title">5G device integration &amp; <span class="grad">certification</span> engineer.</h1>
+      <p class="hero-lede">I’m <strong>Ali Iqrash</strong>. I integrate and validate new network features on recent releases — network slicing, UL/DL carrier aggregation — and certify handsets and chipsets for 5G SA/NSA, O-RAN and LTE.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:Aliiqrash01@gmail.com">
+          Email me
+          <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="#experience">View experience</a>
+      </div>
+      <p class="hero-links">
+        <a href="https://www.linkedin.com/in/ali-iqrash" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/AleeEqrash" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        <button type="button" class="link-btn" data-print>Print CV</button>
+      </p>
     </div>
-    <div class="stats">
-      <div><strong>6+</strong><span>years in RAN & certification</span></div>
-      <div><strong>5G SA/NSA</strong><span>O-RAN · LTE · IMS</span></div>
-      <div><strong>DT GNT</strong><span>Bonn · since Jan 2026</span></div>
+
+    <figure class="portrait">
+      <img src="images/profiles-800.jpg"
+           srcset="images/profiles-400.jpg 400w, images/profiles-800.jpg 800w, images/profiles.jpg 1200w"
+           sizes="(min-width: 900px) 400px, 88vw"
+           width="1200" height="1200"
+           alt="Ali Iqrash, System Engineer at Deutsche Telekom in Bonn" fetchpriority="high" decoding="async" />
+      <figcaption class="portrait-caption">
+        <span class="portrait-name">Ali Iqrash</span>
+        <span class="portrait-role">5G Device Certification · GNT</span>
+      </figcaption>
+    </figure>
+
+    <ul class="stats" role="list">
+      <li><strong>6+</strong><span>years in RAN &amp; device certification</span></li>
+      <li><strong>1,200+</strong><span>NB-IoT / LTE / 5G sites integrated</span></li>
+      <li><strong>5G SA/NSA</strong><span>O-RAN · LTE · IMS</span></li>
+    </ul>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap" aria-labelledby="about-title">
+    <div class="section-head reveal">
+      <p class="section-label"><span>01</span> About</p>
+      <h2 id="about-title">From RAN integration to device certification.</h2>
     </div>
-  </div>
-  <div class="hero-card reveal">
-    <img src="images/profiles.jpg" alt="Ali Iqrash profile photo" />
-    <div class="hero-card-body">
-      <h3>Ali Iqrash</h3>
-      <p>System Engineer — Group Network Technology<br/>Deutsche Telekom, Bonn</p>
-      <ul>
-        <li>✉️ Aliiqrash01@gmail.com</li>
-        <li>📞 +49 163 5154759</li>
-        <li>📍 Bonn, Germany</li>
+    <div class="about-grid">
+      <div class="prose reveal">
+        <p>I work in <strong>Group Network Technology (GNT)</strong> at <strong>Deutsche Telekom</strong> in Bonn. I joined internally in <strong>January 2026</strong> after working in the same team as a consultant via <strong>ORBIT (Nov 2023 – Dec 2025)</strong> — the mission stayed the same, only the badge changed.</p>
+        <p>Before Germany I integrated 1,200+ NB-IoT / LTE / 5G sites as a RAN Integration Engineer at Huawei on the Mobily (KSA) project, delivered a 5G slicing PoC for Telefónica at MicroNova, and studied Communication &amp; Signal Processing at TU Ilmenau. I’m at home in RAN, simulators, tracing tools and 3GPP signalling — and I automate with Python.</p>
+      </div>
+      <aside class="glance reveal" aria-label="Profile at a glance">
+        <h3>At a glance</h3>
+        <dl>
+          <div><dt>Role</dt><dd>System Engineer, GNT</dd></div>
+          <div><dt>Company</dt><dd>Deutsche Telekom</dd></div>
+          <div><dt>Based in</dt><dd>Bonn, Germany</dd></div>
+          <div><dt>Focus</dt><dd>5G SA/NSA device certification</dd></div>
+          <div><dt>Languages</dt><dd>EN · Urdu/Hindi · DE B1</dd></div>
+        </dl>
+      </aside>
+    </div>
+    <div class="toolkit reveal">
+      <p class="toolkit-label">Daily toolkit</p>
+      <ul class="chips" role="list">
+        <li>Accuver XCAL</li>
+        <li>QXDM</li>
+        <li>Shannon DM</li>
+        <li>R&amp;S CMW / CMX500</li>
+        <li>Wireshark</li>
+        <li>LTE / 5G Core</li>
+        <li>SIP · IMS · TCP/UDP</li>
+        <li>GitLab / GitHub</li>
       </ul>
-      <div class="tags">
-        <span>Slicing</span><span>UL/DL CA</span><span>5G SA</span><span>XCAL</span><span>QXDM</span><span>CMX500</span><span>AI Agents</span><span>Automation</span>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt" aria-labelledby="skills-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="section-label"><span>02</span> Skills</p>
+        <h2 id="skills-title">What I bring to the lab.</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <h3>Feature integration</h3>
+          <p>Release validation of new network features end to end.</p>
+          <ul class="chips" role="list">
+            <li>Network Slicing</li><li>UL/DL CA</li><li>VoWiFi · ePDG</li><li>IMS</li><li>3GPP &amp; DT standards</li><li>CA combinations</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Device testing &amp; certification</h3>
+          <p>Handsets and chipsets validated against operator requirements.</p>
+          <ul class="chips" role="list">
+            <li>5G SA / NSA</li><li>Test case design</li><li>Protocol testing</li><li>OTA chambers</li><li>Network simulators</li><li>LTE · O-RAN</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Tools &amp; tracing</h3>
+          <p>Log analysis and signalling debugging across RAN and core.</p>
+          <ul class="chips" role="list">
+            <li>Accuver XCAL</li><li>QXDM</li><li>Shannon DM</li><li>CMW / CMX500</li><li>Wireshark</li><li>GitLab</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Automation &amp; data</h3>
+          <p>Repeatable tests and analysis instead of manual repetition.</p>
+          <ul class="chips" role="list">
+            <li>Python</li><li>pytest</li><li>Robot Framework</li><li>POSTMAN · SOAP UI</li><li>NumPy · Pandas</li><li>MATLAB / Simulink</li><li>AI agents</li>
+          </ul>
+        </article>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ABOUT -->
-<section id="about" class="section container">
-  <p class="section-eyebrow">About</p>
-  <h2>From RAN integration to device certification</h2>
-  <div class="two-col">
-    <p>I work in <strong>Group Network Technology (GNT)</strong> at <strong>Deutsche Telekom</strong> in Bonn. I joined internally in <strong>January 2026</strong> after working in the same team as a consultant via <strong>ORBIT (Nov 2023 – Dec 2025)</strong> — so my mission stayed the same, only the badge changed.</p>
-    <p>Before Germany I integrated 1200+ NB-IoT / LTE / 5G sites as a RAN Integration Engineer at Huawei (Mobily KSA), did a 5G slicing PoC for Telefónica at MicroNova, and studied Communication & Signal Processing at TU Ilmenau (thesis in process). I’m good with RAN, simulators, tracing tools and 3GPP signalling — and I automate with Python.</p>
-  </div>
-  <div class="pill-row">
-    <span>Radio Access Networks (RAN)</span><span>Accuver XCAL</span><span>CMW / CMX500 (R&S)</span><span>Shannon DM</span><span>QXDM</span><span>Wireshark</span><span>LTE/5G Core</span><span>SIP · IMS · TCP/UDP</span><span>GitLab / GitHub</span>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section section-alt">
-  <div class="container">
-    <p class="section-eyebrow">Skills</p>
-    <h2>What I bring to the lab</h2>
-    <div class="grid-3">
-      <div class="card reveal"><h3>🧩 Feature Integration</h3><p>Integration & release validation of new features: Network Slicing, UL/DL Carrier Aggregation, VoWiFi / ePDG / IMS per 3GPP & DT standards.</p></div>
-      <div class="card reveal"><h3>🧪 Test Design</h3><p>Writing 5G SA test cases & scenarios for handsets / chipsets. Pytest, Robot Framework, POSTMAN, SOAP UI. ISTQB Certified (2024).</p></div>
-      <div class="card reveal"><h3>🔧 Test Env Setup</h3><p>Bring-up of test environments: network simulators, mobile phone testers, OTA chambers. CMW / CMX500 hands-on.</p></div>
-      <div class="card reveal"><h3>📡 Tracing & Debugging</h3><p>Log analysis with Accuver XCAL, QXDM, Shannon DM, Wireshark. LTE / 5G NSA & SA / O-RAN protocol debugging.</p></div>
-      <div class="card reveal"><h3>📶 3GPP & Protocols</h3><p>LTE, 5G NSA/SA, O-RAN, slicing catalogue, CA combos, SIP/IMS, TCP/UDP signalling, RAN + core functions.</p></div>
-      <div class="card reveal"><h3>🐍 Automation & Data</h3><p>Python (NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib), MATLAB & Simulink, GitLab/GitHub. SON/xApp & ML background.</p></div>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section wrap" aria-labelledby="experience-title">
+    <div class="section-head reveal">
+      <p class="section-label"><span>03</span> Experience</p>
+      <h2 id="experience-title">Career timeline.</h2>
     </div>
-  </div>
-</section>
 
-<!-- EXPERIENCE -->
-<section id="experience" class="section container">
-  <p class="section-eyebrow">Experience</p>
-  <h2>Career timeline</h2>
-  <div class="timeline">
-    <article class="t-item reveal">
-      <div class="t-date">Jan 2026 — Present</div>
-      <div class="t-body">
-        <h3>System Engineer — Deutsche Telekom, Bonn <span class="badge">Current</span></h3>
-        <p class="t-sub"><a href="https://www.telekom.com/" target="_blank" rel="noopener">telekom.com ↗</a> · Group Network Technology (GNT) · Device Testing & Certification · Internal move from ORBIT consultant role</p>
-        <ul>
-          <li>New feature integration & validation on recent releases — incl. <strong>Network Slicing</strong> and <strong>UL/DL Carrier Aggregation</strong> (generic — confidential details omitted).</li>
-          <li>Writing 5G SA test cases & scenarios for handset / chipset certification against DT standards.</li>
-          <li>Setting up test environments: network simulators, phone testers, OTA chambers.</li>
-          <li>Protocol testing in LTE / 5G NSA & SA / O-RAN; 3GPP VoWiFi, ePDG, IMS signalling.</li>
-          <li>Tracing with Accuver XCAL, QXDM, Shannon DM, CMW/CMX500, Wireshark.</li>
-        </ul>
-      </div>
-    </article>
-    <article class="t-item reveal">
-      <div class="t-date">Nov 2023 — Dec 2025</div>
-      <div class="t-body">
-        <h3>Network Protocol Test Engineer — ORBIT, Bonn</h3>
-        <p class="t-sub"><a href="https://www.orbit.de/" target="_blank" rel="noopener">orbit.de ↗</a> · Consultant for Deutsche Telekom, Device Testing & Certification</p>
-        <ul>
-          <li>Protocol testing of LTE / 5G NSA & SA / O-RAN devices.</li>
-          <li>Tested handsets & chipsets for DT standards on network simulators.</li>
-          <li>Wrote 5G SA test cases & scenarios for chipset testing.</li>
-          <li>Used mobile phone testers & OTA chambers; 3GPP VoWiFi, ePDG, IMS.</li>
-          <li>Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500.</li>
-        </ul>
-      </div>
-    </article>
-    <article class="t-item reveal">
-      <div class="t-date">Feb 2023 — Oct 2023</div>
-      <div class="t-body">
-        <h3>Working Student, Telco Solutions — MicroNova AG, Munich</h3>
-        <p class="t-sub"><a href="https://www.micronova.de/" target="_blank" rel="noopener">micronova.de ↗</a></p>
-        <ul>
-          <li>5G Network Slicing PoC for Telefónica — slicing service catalogue per 3GPP.</li>
-          <li>Worked with dev & design teams on deployment & integration.</li>
-          <li>Built understanding of 5G RAN & core functions.</li>
-        </ul>
-      </div>
-    </article>
-    <article class="t-item reveal">
-      <div class="t-date">Oct 2019 — Nov 2021</div>
-      <div class="t-body">
-        <h3>RAN Integration Engineer — Huawei Technologies, Pakistan</h3>
-        <p class="t-sub">Mobily (KSA) project</p>
-        <ul>
-          <li>Integration, troubleshooting & optimisation of KPIs and architecture.</li>
-          <li>Site integration: 5G, LTE carrier addition, Multi-RAN → SingleRAN, MIMO 4T4R / 32T32R / 64T64R.</li>
-          <li>Led 5 engineers, delivered 1200 NB-IoT expansion sites in 3 months.</li>
-        </ul>
-      </div>
-    </article>
-  </div>
-</section>
+    <div class="jobs">
+      <details class="job" open>
+        <summary>
+          <span class="job-main">
+            <span class="job-date">Jan 2026 — Present</span>
+            <span class="job-title">System Engineer <span class="badge">Current</span></span>
+            <span class="job-company">Deutsche Telekom · Group Network Technology (GNT) · Bonn</span>
+          </span>
+          <svg class="chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="job-body">
+          <p class="job-context">Device Testing &amp; Certification · internal move from the ORBIT consultant role</p>
+          <ul>
+            <li>New feature integration &amp; validation on recent releases — including <strong>Network Slicing</strong> and <strong>UL/DL Carrier Aggregation</strong> (generic; confidential details omitted).</li>
+            <li>Writing 5G SA test cases &amp; scenarios for handset and chipset certification against DT standards.</li>
+            <li>Setting up test environments: network simulators, phone testers and OTA chambers.</li>
+            <li>Protocol testing in LTE / 5G NSA &amp; SA / O-RAN; 3GPP VoWiFi, ePDG and IMS signalling.</li>
+            <li>Tracing with Accuver XCAL, QXDM, Shannon DM, CMW/CMX500 and Wireshark.</li>
+          </ul>
+        </div>
+      </details>
 
-<!-- PROJECTS -->
-<section id="projects" class="section section-alt">
-  <div class="container">
-    <p class="section-eyebrow">Projects & Lab</p>
-    <h2>Selected work</h2>
-    <div class="grid-2">
-      <div class="card reveal">
-        <p class="card-date">Oct 2022 — Feb 2023 · TU Ilmenau (Advanced Research Project)</p>
-        <h3>SON function of MRO as xApp on O-RAN RIC</h3>
-        <p>Set up ONOS RIC, RAN simulator & apps. Adapted in-house SON MRO/MLB function as xApp via RIC APIs. Designed SON for URLLC, measured & compared results.</p>
-        <div class="tags"><span>O-RAN</span><span>RIC</span><span>xApp</span><span>SON/MRO</span></div>
+      <details class="job">
+        <summary>
+          <span class="job-main">
+            <span class="job-date">Nov 2023 — Dec 2025</span>
+            <span class="job-title">Network Protocol Test Engineer</span>
+            <span class="job-company">ORBIT · Consultant for Deutsche Telekom · Bonn</span>
+          </span>
+          <svg class="chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li>Protocol testing of LTE / 5G NSA &amp; SA / O-RAN devices.</li>
+            <li>Tested handsets and chipsets for DT standards on network simulators.</li>
+            <li>Wrote 5G SA test cases and scenarios for chipset testing.</li>
+            <li>Used mobile phone testers and OTA chambers; 3GPP VoWiFi, ePDG and IMS.</li>
+            <li>Tracing tools: Accuver, QXDM, Shannon DM, CMW/CMX500.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="job">
+        <summary>
+          <span class="job-main">
+            <span class="job-date">Feb 2023 — Oct 2023</span>
+            <span class="job-title">Working Student, Telco Solutions</span>
+            <span class="job-company">MicroNova AG · Munich</span>
+          </span>
+          <svg class="chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li>5G Network Slicing PoC for Telefónica — slicing service catalogue per 3GPP.</li>
+            <li>Worked with development and design teams on deployment and integration.</li>
+            <li>Built up understanding of 5G RAN and core functions.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="job">
+        <summary>
+          <span class="job-main">
+            <span class="job-date">Oct 2019 — Nov 2021</span>
+            <span class="job-title">RAN Integration Engineer</span>
+            <span class="job-company">Huawei Technologies · Mobily (KSA) project · Pakistan</span>
+          </span>
+          <svg class="chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="job-body">
+          <ul>
+            <li>Integration, troubleshooting and optimisation of KPIs and architecture.</li>
+            <li>Site integration: 5G, LTE carrier addition, Multi-RAN → SingleRAN, MIMO 4T4R / 32T32R / 64T64R.</li>
+            <li>Led 5 engineers and delivered 1,200 NB-IoT expansion sites in 3 months.</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt" aria-labelledby="projects-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="section-label"><span>04</span> Projects</p>
+        <h2 id="projects-title">Selected work.</h2>
       </div>
-      <div class="card reveal">
-        <p class="card-date">Nov 2021 — Jul 2022 · KNRTU (Basic Research Project)</p>
-        <h3>Real-Time Load Estimation of LTE Cell</h3>
-        <p>Decoded DCI on PDCCH to count unique RNTIs and estimate cell load in real time. Prototype on SDRs, tested on 5+ commercial sites — up to 90% user-detection efficiency.</p>
-        <div class="tags"><span>LTE</span><span>SDR</span><span>DCI</span><span>Signal Processing</span></div>
-      </div>
-      <div class="card reveal">
-        <p class="card-date">Nov 2024 — Jan 2025 · Self-directed learning</p>
-        <h3>API Testing with SOAP UI</h3>
-        <p>Learned SOAP API testing with mock servers — functionality, performance & error handling. Evolved into a fully-fledged automation mini-app.</p>
-        <div class="tags"><span>SOAP</span><span>POSTMAN</span><span>QA Automation</span></div>
-      </div>
-      <div class="card reveal">
-        <p class="card-date">2017 — 2018 · University of Sargodha (Bachelor Thesis)</p>
-        <h3>Enhancing Security via Speaker Recognition</h3>
-        <p>Real-time speech processing in MATLAB — MFCC extraction + Vector Quantisation for voice matching. Idea: prevent fake-identity fraud in e.g. online banking.</p>
-        <div class="tags"><span>MATLAB</span><span>MFCC</span><span>VQ</span></div>
+      <div class="project-grid">
+        <article class="project reveal">
+          <p class="project-date">Oct 2022 — Feb 2023 · TU Ilmenau</p>
+          <h3>SON function of MRO as an xApp on the O-RAN RIC</h3>
+          <p>Set up the ONOS RIC, RAN simulator and apps. Adapted an in-house SON MRO/MLB function as an xApp via RIC APIs, then designed, measured and compared SON for URLLC.</p>
+          <ul class="chips" role="list"><li>O-RAN</li><li>RIC</li><li>xApp</li><li>SON / MRO</li></ul>
+        </article>
+        <article class="project reveal">
+          <p class="project-date">Nov 2021 — Jul 2022 · KNRTU</p>
+          <h3>Real-time load estimation of an LTE cell</h3>
+          <p>Decoded DCI on PDCCH to count unique RNTIs and estimate cell load in real time. Prototype on SDRs, tested on 5+ commercial sites with up to 90% user-detection efficiency.</p>
+          <ul class="chips" role="list"><li>LTE</li><li>SDR</li><li>DCI</li><li>Signal processing</li></ul>
+        </article>
+        <article class="project reveal">
+          <p class="project-date">Nov 2024 — Jan 2025 · Self-directed</p>
+          <h3>API testing with SOAP UI</h3>
+          <p>Learned SOAP API testing with mock servers — functionality, performance and error handling. Evolved into a fully-fledged automation mini-app.</p>
+          <ul class="chips" role="list"><li>SOAP</li><li>POSTMAN</li><li>QA automation</li></ul>
+        </article>
+        <article class="project reveal">
+          <p class="project-date">2017 — 2018 · University of Sargodha</p>
+          <h3>Enhancing security via speaker recognition</h3>
+          <p>Real-time speech processing in MATLAB — MFCC extraction and vector quantisation for voice matching, aimed at preventing identity fraud in online banking.</p>
+          <ul class="chips" role="list"><li>MATLAB</li><li>MFCC</li><li>Vector quantisation</li></ul>
+        </article>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- EDUCATION + CERTS -->
-<section id="education" class="section container">
-  <p class="section-eyebrow">Education & Certifications</p>
-  <h2>Foundations</h2>
-  <div class="grid-2">
-    <div class="card reveal">
-      <p class="card-date">2021 — Ongoing · Ilmenau, Germany</p>
-      <h3>Technische Universität Ilmenau</h3>
-      <p class="t-sub">M.Eng. Communication & Signal Processing — thesis in process</p>
-      <p>Cellular & Advanced Mobile Communication Systems, Adaptive Array & Digital Signal Processing, Wireless + source/channel coding, maths & modelling of devices.</p>
+  <!-- EDUCATION -->
+  <section id="education" class="section wrap" aria-labelledby="education-title">
+    <div class="section-head reveal">
+      <p class="section-label"><span>05</span> Education &amp; credentials</p>
+      <h2 id="education-title">Foundations.</h2>
     </div>
-    <div class="card reveal">
-      <p class="card-date">2014 — 2018 · Pakistan</p>
-      <h3>University of Sargodha</h3>
-      <p class="t-sub">B.E. Electrical Engineering — Wireless Mobile Comm., Fibre, Signal Processing</p>
-      <p>Wave propagation, antenna theory & design, algorithms for digital transmission & processing.</p>
+    <div class="edu-grid">
+      <article class="edu-card reveal">
+        <p class="project-date">2021 — ongoing · Ilmenau, Germany</p>
+        <h3>Technische Universität Ilmenau</h3>
+        <p class="edu-degree">M.Eng. Communication &amp; Signal Processing — thesis in progress</p>
+        <p>Cellular and advanced mobile communication systems, adaptive array and digital signal processing, wireless communications, source and channel coding.</p>
+      </article>
+      <article class="edu-card reveal">
+        <p class="project-date">2014 — 2018 · Pakistan</p>
+        <h3>University of Sargodha</h3>
+        <p class="edu-degree">B.E. Electrical Engineering — wireless mobile communication, fibre, signal processing</p>
+        <p>Wave propagation, antenna theory and design, algorithms for digital transmission and processing.</p>
+      </article>
     </div>
-  </div>
-  <div class="certs reveal">
-    <div><strong>AI Agents & Automation</strong><span>Explorer Journey · Autumn 2026</span><br/><a href="docs/certificates/ai-agents-automation-explorer-autumn-2026.pdf" target="_blank" rel="noopener">View certificate ↗</a></div>
-    <div><strong>ISTQB®</strong><span>Certified Tester FL · Mar 2024</span><br/><a href="docs/certificates/istqb-ctfl-2024.pdf" target="_blank" rel="noopener">View certificate ↗</a></div>
-    <div><strong>OpenCV Python</strong><span>Mastering OpenCV (92%) · Aug 2024</span><br/><a href="docs/certificates/opencv-mastering-python-2024.pdf" target="_blank" rel="noopener">Mastering ↗</a> · <a href="docs/certificates/opencv-bootcamp-2024.pdf" target="_blank" rel="noopener">Bootcamp (94%) ↗</a></div>
-    <div><strong>HCIP LTE</strong><span>Huawei Certified · 2020</span></div>
-    <div><strong>DAAD</strong><span>Fully Funded · 2022</span></div>
-    <div><strong>GRIAT Sur-Place</strong><span>DAAD Scholarship · 2021</span></div>
-  </div>
-  <div class="about-extra reveal">
-    <h3>A little more about me</h3>
-    <p>Biking · Music · Reading TLDR.</p>
-    <p><strong>Languages:</strong> English (fluent) · Urdu/Hindi (native) · German B1 (still improving, not yet fully confident).</p>
-  </div>
-</section>
 
-<!-- CONTACT -->
-<section id="contact" class="section section-cta">
-  <div class="container cta-inner reveal">
-    <p class="section-eyebrow">Contact</p>
-    <h2>Let’s test the next release together.</h2>
-    <p>Based in Bonn · Open to collaboration on 5G certification, slicing & CA validation, and test automation.</p>
-    <div class="hero-cta center">
-      <a class="btn btn-primary" href="mailto:Aliiqrash01@gmail.com">Aliiqrash01@gmail.com</a>
-      <a class="btn btn-ghost dark" href="https://www.linkedin.com/in/ali-iqrash" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-ghost dark" href="https://github.com/AleeEqrash" target="_blank" rel="noopener">GitHub</a>
+    <div class="cert-block reveal">
+      <h3>Certifications &amp; scholarships</h3>
+      <ul class="cert-list" role="list">
+        <li>
+          <span class="cert-name">AI Agents &amp; Automation</span>
+          <span class="cert-meta">Explorer Journey · Autumn 2026 · <a href="docs/certificates/ai-agents-automation-explorer-autumn-2026.pdf" target="_blank" rel="noopener">Certificate ↗</a></span>
+        </li>
+        <li>
+          <span class="cert-name">ISTQB® Certified Tester</span>
+          <span class="cert-meta">Foundation Level · Mar 2024 · <a href="docs/certificates/istqb-ctfl-2024.pdf" target="_blank" rel="noopener">Certificate ↗</a></span>
+        </li>
+        <li>
+          <span class="cert-name">OpenCV Python</span>
+          <span class="cert-meta">Mastering (92%) &amp; Bootcamp (94%) · Aug 2024 · <a href="docs/certificates/opencv-mastering-python-2024.pdf" target="_blank" rel="noopener">Mastering ↗</a> · <a href="docs/certificates/opencv-bootcamp-2024.pdf" target="_blank" rel="noopener">Bootcamp ↗</a></span>
+        </li>
+        <li>
+          <span class="cert-name">HCIP LTE</span>
+          <span class="cert-meta">Huawei Certified ICT Professional · 2020 · <a href="docs/certificates/hcip-lte-2020.pdf" target="_blank" rel="noopener">Certificate ↗</a></span>
+        </li>
+        <li>
+          <span class="cert-name">DAAD Scholarship</span>
+          <span class="cert-meta">Fully funded · 2022</span>
+        </li>
+        <li>
+          <span class="cert-name">GRIAT Sur-Place</span>
+          <span class="cert-meta">DAAD scholarship · 2021</span>
+        </li>
+      </ul>
     </div>
-    <p class="small">+49 163 5154759 · Bonn, Germany · References on request</p>
-  </div>
-</section>
+
+    <div class="beyond reveal">
+      <p><strong>Beyond work:</strong> biking, music, reading TLDR.</p>
+      <p><strong>Languages:</strong> English fluent · Urdu/Hindi native · German B1, improving.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section section-alt" aria-labelledby="faq-title">
+    <div class="wrap faq-wrap">
+      <div class="section-head reveal">
+        <p class="section-label"><span>06</span> FAQ</p>
+        <h2 id="faq-title">For recruiters &amp; collaborators.</h2>
+        <p class="section-sub">Short answers to the questions I get most often.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq reveal">
+          <summary>Who is Ali Iqrash?<svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m-7-7h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <p>Ali Iqrash is a System Engineer in Group Network Technology (GNT) at Deutsche Telekom in Bonn, Germany. He focuses on 5G SA/NSA device integration, certification and release validation.</p>
+        </details>
+        <details class="faq reveal">
+          <summary>What does he work on?<svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m-7-7h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <p>He integrates and validates new network features such as network slicing and UL/DL carrier aggregation, writes 5G SA test cases for handsets and chipsets, and sets up test environments with network simulators, phone testers and OTA chambers.</p>
+        </details>
+        <details class="faq reveal">
+          <summary>Which tools and technologies does he use?<svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m-7-7h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <p>Accuver XCAL, QXDM, Shannon DM, Rohde &amp; Schwarz CMW/CMX500 and Wireshark, plus Python, pytest, Robot Framework, POSTMAN and SOAP UI. Standards include 3GPP, LTE, 5G NSA/SA, O-RAN, SIP/IMS and TCP/UDP.</p>
+        </details>
+        <details class="faq reveal">
+          <summary>Where is he based and is he open to roles?<svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m-7-7h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <p>He is based in Bonn, Germany and works at Deutsche Telekom. He is open to collaboration and conversations about 5G certification, network slicing, carrier aggregation and test automation.</p>
+        </details>
+        <details class="faq reveal">
+          <summary>What are his qualifications?<svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m-7-7h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <p>M.Eng. in Communication and Signal Processing at TU Ilmenau (thesis in progress), B.E. in Electrical Engineering from the University of Sargodha, ISTQB Certified Tester Foundation Level (2024) and Huawei HCIP LTE (2020).</p>
+        </details>
+        <details class="faq reveal">
+          <summary>Does he speak German?<svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m-7-7h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <p>He speaks English fluently, Urdu and Hindi natively, and German at B1 level, which is improving.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap" aria-labelledby="contact-title">
+    <div class="contact-panel reveal">
+      <p class="section-label"><span>07</span> Contact</p>
+      <h2 id="contact-title">Let’s test the next release together.</h2>
+      <p class="contact-lede">Based in Bonn and open to conversations about 5G certification, slicing and carrier aggregation validation, and test automation.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary btn-lg" href="mailto:Aliiqrash01@gmail.com">Aliiqrash01@gmail.com</a>
+        <button class="btn btn-ghost btn-lg" type="button" id="copyEmail" data-email="Aliiqrash01@gmail.com">Copy address</button>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/ali-iqrash" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/AleeEqrash" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        <span class="contact-meta">Bonn, Germany · References on request</span>
+      </div>
+    </div>
+  </section>
 </main>
 
-<footer>
-  <div class="container foot">
-    <p>© <span id="year"></span> Ali Iqrash · <a href="index-de.html">Deutsche Version</a></p>
-    <a href="#top">Back to top ↑</a>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2026</span> Ali Iqrash · Bonn, Germany</p>
+    <div class="footer-links">
+      <a href="index-de.html" lang="de" hreflang="de">Deutsch</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="#top">Back to top ↑</a>
+    </div>
   </div>
 </footer>
 
-<!-- Print-only concise CV -->
+<div class="mobile-bar" aria-label="Quick contact">
+  <span class="mobile-bar-status"><span class="status-dot" aria-hidden="true"></span> Open to collaboration</span>
+  <a class="btn btn-primary btn-sm" href="mailto:Aliiqrash01@gmail.com">Email me</a>
+</div>
+
+<!-- Print-only CV -->
 <div class="cv-print" aria-hidden="true">
   <div class="cv-head">
-    <h1>Ali Iqrash — System Engineer</h1>
+    <p class="cv-name">Ali Iqrash — System Engineer</p>
     <p>Group Network Technology (GNT), Deutsche Telekom, Bonn · Bonn, Germany</p>
     <p>Aliiqrash01@gmail.com · +49 163 5154759 · linkedin.com/in/ali-iqrash · github.com/AleeEqrash</p>
   </div>
   <h2>Profile</h2>
-  <p>System Engineer (Jan 2026–Present, Deutsche Telekom GNT) after consultant role in same team via ORBIT (Nov 2023–Dec 2025). 6+ years in RAN integration and 5G device certification. Focus: new feature integration (Network Slicing, UL/DL Carrier Aggregation), test case design, test environment setup for 5G SA/NSA, O-RAN, LTE.</p>
+  <p>System Engineer (Jan 2026–Present, Deutsche Telekom GNT) after a consultant role in the same team via ORBIT (Nov 2023–Dec 2025). 6+ years in RAN integration and 5G device certification. Focus: new feature integration (Network Slicing, UL/DL Carrier Aggregation), test case design, test environment setup for 5G SA/NSA, O-RAN and LTE.</p>
   <h2>Experience</h2>
-  <p><strong>Deutsche Telekom, Bonn — System Engineer, GNT (Jan 2026–Present).</strong> Feature integration & release validation (slicing, UL/DL CA); 5G SA test cases; env setup (simulators, phone testers, OTA chambers); protocol testing LTE/5G NSA/SA/O-RAN, VoWiFi/ePDG/IMS; tools XCAL, QXDM, Shannon DM, CMW/CMX500, Wireshark.</p>
+  <p><strong>Deutsche Telekom, Bonn — System Engineer, GNT (Jan 2026–Present).</strong> Feature integration &amp; release validation (slicing, UL/DL CA); 5G SA test cases; environment setup (simulators, phone testers, OTA chambers); protocol testing LTE/5G NSA/SA/O-RAN, VoWiFi/ePDG/IMS; tools XCAL, QXDM, Shannon DM, CMW/CMX500, Wireshark.</p>
   <p><strong>ORBIT, Bonn — Network Protocol Test Engineer, consultant for DT (Nov 2023–Dec 2025).</strong> Device protocol testing, DT-standards certification on simulators, 5G SA scenarios, OTA chambers, same tool chain.</p>
   <p><strong>MicroNova AG, Munich — Working Student Telco Solutions (Feb–Oct 2023).</strong> 5G slicing PoC for Telefónica, catalogue per 3GPP, RAN/core integration.</p>
-  <p><strong>Huawei, Pakistan (Mobily KSA) — RAN Integration Engineer (Oct 2019–Nov 2021).</strong> Site integration 5G/LTE/SingleRAN/MIMO; led 5 engineers, 1200 NB-IoT sites in 3 months.</p>
+  <p><strong>Huawei, Pakistan (Mobily KSA) — RAN Integration Engineer (Oct 2019–Nov 2021).</strong> Site integration 5G/LTE/SingleRAN/MIMO; led 5 engineers, 1,200 NB-IoT sites in 3 months.</p>
   <h2>Skills</h2>
-  <p>RAN, XCAL, CMW/CMX500, Shannon DM, QXDM, Wireshark · LTE/5G NSA/SA/O-RAN, slicing, UL/DL CA, SIP/IMS/TCP/UDP · Pytest, Robot, POSTMAN, SOAP · Python (NumPy, Pandas, sklearn), MATLAB/Simulink, GitLab/GitHub · AI agents & automation (explorer level) · ISTQB FL 2024.</p>
-  <h2>Education & Certs</h2>
-  <p>TU Ilmenau — M.Eng. Communication & Signal Processing, 2021–ongoing (thesis in process). University of Sargodha — B.E. Electrical, 2014–2018. AI Agents & Automation Explorer Journey, Autumn 2026 · ISTQB 2024 · OpenCV Python 2024 · HCIP LTE 2020 · DAAD 2022 · GRIAT Sur-Place 2021.</p>
+  <p>RAN, XCAL, CMW/CMX500, Shannon DM, QXDM, Wireshark · LTE/5G NSA/SA/O-RAN, slicing, UL/DL CA, SIP/IMS/TCP/UDP · Pytest, Robot, POSTMAN, SOAP · Python (NumPy, Pandas, scikit-learn), MATLAB/Simulink, GitLab/GitHub · AI agents &amp; automation · ISTQB FL 2024.</p>
+  <h2>Education &amp; Certifications</h2>
+  <p>TU Ilmenau — M.Eng. Communication &amp; Signal Processing, 2021–ongoing (thesis in progress). University of Sargodha — B.E. Electrical, 2014–2018. AI Agents &amp; Automation Explorer Journey, Autumn 2026 · ISTQB 2024 · OpenCV Python 2024 · HCIP LTE 2020 · DAAD 2022 · GRIAT Sur-Place 2021.</p>
   <h2>Languages</h2>
   <p>English fluent · Urdu/Hindi native · German B1 (improving).</p>
 </div>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>

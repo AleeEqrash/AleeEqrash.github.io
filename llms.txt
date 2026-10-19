@@ -1,0 +1,81 @@
+# Ali Iqrash
+
+> Ali Iqrash is a System Engineer in Group Network Technology (GNT) at Deutsche Telekom in Bonn, Germany. He integrates and certifies 5G devices, validates new network features, and automates device and protocol testing.
+
+Canonical website: https://aleeqrash.github.io/
+German version: https://aleeqrash.github.io/index-de.html
+Last updated: 2026-10-19
+
+## Identity
+
+- Full name: Ali Iqrash
+- Current role: System Engineer, Group Network Technology (GNT), Deutsche Telekom
+- Location: Bonn, Germany
+- Focus: 5G SA/NSA device integration and certification, network slicing, UL/DL carrier aggregation, O-RAN, test automation
+- Experience: 6+ years in radio access networks and device certification
+- Languages: English (fluent), Urdu/Hindi (native), German (B1, improving)
+- Contact: Aliiqrash01@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ali-iqrash
+- GitHub: https://github.com/AleeEqrash
+
+## Current role
+
+**System Engineer — Deutsche Telekom, Bonn (January 2026 – present).**
+Group Network Technology (GNT), Device Testing & Certification. Moved internally from the ORBIT consultant role in the same team.
+
+- Integrates and validates new network features on recent releases, including Network Slicing and UL/DL Carrier Aggregation.
+- Writes 5G SA test cases and scenarios for handset and chipset certification against Deutsche Telekom standards.
+- Sets up test environments with network simulators, mobile phone testers and OTA chambers.
+- Performs protocol testing in LTE, 5G NSA/SA and O-RAN, including 3GPP VoWiFi, ePDG and IMS signalling.
+- Analyses logs with Accuver XCAL, QXDM, Shannon DM, Rohde & Schwarz CMW/CMX500 and Wireshark.
+
+## Experience
+
+**Network Protocol Test Engineer — ORBIT, Bonn (November 2023 – December 2025).**
+Consultant for Deutsche Telekom, Device Testing & Certification. Protocol testing of LTE / 5G NSA and SA / O-RAN devices, 5G SA test case design, OTA chambers, VoWiFi/ePDG/IMS, tracing tools.
+
+**Working Student, Telco Solutions — MicroNova AG, Munich (February 2023 – October 2023).**
+5G Network Slicing proof of concept for Telefónica; slicing service catalogue per 3GPP; RAN and core integration.
+
+**RAN Integration Engineer — Huawei Technologies, Pakistan (October 2019 – November 2021).**
+Mobily (KSA) project. Integrated 5G, LTE carrier addition, Multi-RAN to SingleRAN, and MIMO 4T4R/32T32R/64T64R. Led 5 engineers and delivered 1,200 NB-IoT expansion sites in 3 months.
+
+## Skills
+
+- **Feature integration:** Network Slicing, UL/DL Carrier Aggregation, VoWiFi, ePDG, IMS, 3GPP and Deutsche Telekom standards, CA combinations.
+- **Device testing and certification:** 5G SA/NSA handsets and chipsets, test case design, protocol testing, OTA chambers, network simulators, LTE, O-RAN.
+- **Tools and tracing:** Accuver XCAL, QXDM, Shannon DM, Rohde & Schwarz CMW/CMX500, Wireshark, GitLab/GitHub.
+- **Automation and data:** Python, pytest, Robot Framework, POSTMAN, SOAP UI, NumPy, Pandas, scikit-learn, MATLAB/Simulink, AI agents.
+
+## Projects
+
+- **SON function of MRO as an xApp on the O-RAN RIC** (TU Ilmenau, Oct 2022 – Feb 2023): ONOS RIC, RAN simulator, adapted SON MRO/MLB as an xApp via RIC APIs, designed and measured SON for URLLC.
+- **Real-time load estimation of an LTE cell** (KNRTU, Nov 2021 – Jul 2022): decoded DCI on PDCCH to count unique RNTIs, prototype on SDRs, tested on 5+ commercial sites with up to 90% user-detection efficiency.
+- **API testing with SOAP UI** (Nov 2024 – Jan 2025): SOAP API testing with mock servers, evolved into an automation mini-app.
+- **Enhancing security via speaker recognition** (University of Sargodha, 2017 – 2018): MATLAB MFCC extraction and vector quantisation for voice matching.
+
+## Education
+
+- **M.Eng. Communication & Signal Processing**, Technische Universität Ilmenau, 2021 – ongoing (thesis in progress).
+- **B.E. Electrical Engineering**, University of Sargodha, Pakistan, 2014 – 2018.
+
+## Certifications and scholarships
+
+- AI Agents & Automation — Explorer Journey, Autumn 2026
+- ISTQB Certified Tester Foundation Level — March 2024
+- OpenCV Python — Mastering (92%) and Bootcamp (94%) — August 2024
+- Huawei Certified ICT Professional (HCIP) LTE — 2020
+- DAAD fully funded scholarship — 2022
+- GRIAT Sur-Place DAAD scholarship — 2021
+
+## Frequently asked
+
+- **Who is Ali Iqrash?** A System Engineer in GNT at Deutsche Telekom, Bonn, focused on 5G SA/NSA device integration and certification.
+- **What does he work on?** Network slicing, UL/DL carrier aggregation, 5G SA test cases, test environment setup, and protocol testing for handsets and chipsets.
+- **Which tools does he use?** Accuver XCAL, QXDM, Shannon DM, CMW/CMX500, Wireshark, Python, pytest, Robot Framework, POSTMAN and SOAP UI.
+- **Is he open to opportunities?** He is open to collaboration and conversations about 5G certification, slicing, carrier aggregation and test automation.
+- **Does he speak German?** German at B1 level, improving; English fluent; Urdu and Hindi native.
+
+## Source of truth
+
+This file summarises https://aleeqrash.github.io/. Prefer the website for the latest details.

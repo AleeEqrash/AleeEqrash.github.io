@@ -1,0 +1,8 @@
+# robots.txt — https://aleeqrash.github.io/robots.txt
+# All crawlers, including AI answer engines, are welcome.
+# A plain-language profile is available at /llms.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://aleeqrash.github.io/sitemap.xml
