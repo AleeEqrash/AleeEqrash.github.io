@@ -86,11 +86,7 @@
 
   /* ---------- Header state ---------- */
   var header = $('#siteHeader');
-  function onScroll() {
-    if (header) header.classList.toggle('is-scrolled', window.scrollY > 8);
-  }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  var headerScrolled = null;
 
   /* ---------- Experience accordions ---------- */
   var jobs = $$('.job');
@@ -135,11 +131,14 @@
   /* ---------- Active section in navigation ---------- */
   var sectionIds = ['about', 'skills', 'experience', 'projects', 'education', 'faq', 'contact'];
   var navLinks = $$('.nav > a');
+  var currentId = null;
   var spySections = sectionIds
     .map(function (id) { return document.getElementById(id); })
     .filter(Boolean);
 
   function setCurrent(id) {
+    if (id === currentId) return;
+    currentId = id;
     navLinks.forEach(function (link) {
       var match = link.getAttribute('href') === '#' + id;
       link.classList.toggle('is-current', match);
@@ -156,21 +155,21 @@
     }, { rootMargin: '-42% 0px -52% 0px', threshold: 0 });
 
     spySections.forEach(function (section) { spy.observe(section); });
-
-    window.addEventListener('scroll', function () {
-      if (window.scrollY < 120) setCurrent('');
-    }, { passive: true });
   }
 
   /* ---------- Sticky mobile bar ---------- */
   var mobileBar = $('.mobile-bar');
   var contact = $('#contact');
   var nearContact = false;
+  var barVisible = null;
 
-  function syncBar() {
+  function syncBar(y) {
     if (!mobileBar) return;
-    var pastHero = window.scrollY > 320;
-    mobileBar.classList.toggle('is-visible', pastHero && !nearContact);
+    var scrollY = typeof y === 'number' ? y : window.scrollY;
+    var visible = scrollY > 320 && !nearContact;
+    if (visible === barVisible) return;
+    barVisible = visible;
+    mobileBar.classList.toggle('is-visible', visible);
   }
 
   if (mobileBar && contact && 'IntersectionObserver' in window) {
@@ -183,8 +182,29 @@
     contactObserver.observe(contact);
   }
 
-  window.addEventListener('scroll', syncBar, { passive: true });
-  syncBar();
+  /* ---------- Single rAF-throttled scroll handler ---------- */
+  var scrollTicking = false;
+  var raf = window.requestAnimationFrame || function (fn) { return window.setTimeout(fn, 16); };
+
+  function onScrollFrame() {
+    scrollTicking = false;
+    var y = window.scrollY;
+    var scrolled = y > 8;
+    if (header && scrolled !== headerScrolled) {
+      headerScrolled = scrolled;
+      header.classList.toggle('is-scrolled', scrolled);
+    }
+    syncBar(y);
+    if (y < 120) setCurrent('');
+  }
+
+  window.addEventListener('scroll', function () {
+    if (scrollTicking) return;
+    scrollTicking = true;
+    raf(onScrollFrame);
+  }, { passive: true });
+
+  /* Initial state is already correct in the markup; the first scroll updates it. */
 
   /* ---------- Print buttons ---------- */
   $$('[data-print]').forEach(function (btn) {

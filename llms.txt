@@ -2,9 +2,19 @@
 
 > Ali Iqrash is a System Engineer in Group Network Technology (GNT) at Deutsche Telekom in Bonn, Germany. He integrates and certifies 5G devices, validates new network features, and automates device and protocol testing.
 
-Canonical website: https://aleeeqrash.github.io/
-German version: https://aleeeqrash.github.io/index-de.html
-Last updated: 2026-10-19
+Canonical website: [https://aleeeqrash.github.io/](https://aleeeqrash.github.io/)
+German version: [https://aleeeqrash.github.io/index-de.html](https://aleeeqrash.github.io/index-de.html)
+Last updated: 2026-10-21
+
+## Links
+
+- [Website](https://aleeeqrash.github.io/)
+- [German version](https://aleeeqrash.github.io/index-de.html)
+- [LinkedIn](https://www.linkedin.com/in/ali-iqrash)
+- [GitHub](https://github.com/AleeEqrash)
+- [Email](mailto:Aliiqrash01@gmail.com)
+- [Sitemap](https://aleeeqrash.github.io/sitemap.xml)
+- [LLM summary](https://aleeeqrash.github.io/llms.txt)
 
 ## Identity
 

@@ -36,9 +36,11 @@
 <meta name="twitter:description" content="System Engineer bei der Deutschen Telekom (GNT), Bonn. 5G-SA/NSA-Zertifizierung, Network Slicing, UL/DL CA und O-RAN." />
 <meta name="twitter:image" content="https://aleeeqrash.github.io/images/og-image.jpg" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" as="image" type="image/webp" href="images/profiles-960.webp"
+      imagesrcset="images/profiles-480.webp 480w, images/profiles-720.webp 720w, images/profiles-960.webp 960w"
+      imagesizes="(min-width: 900px) 400px, 88vw" fetchpriority="high" />
 <link rel="stylesheet" href="styles.css" />
 
 <script>
@@ -157,7 +159,7 @@
         "width": 1200,
         "height": 630
       },
-      "dateModified": "2026-10-19"
+      "dateModified": "2026-10-21"
     },
     {
       "@type": "FAQPage",
@@ -222,7 +224,7 @@
 
 <header class="site-header" id="siteHeader">
   <div class="wrap header-inner">
-    <a class="brand" href="#top" aria-label="Ali Iqrash — nach oben">
+    <a class="brand" href="#top" aria-label="AI Ali Iqrash - nach oben">
       <span class="brand-mark" aria-hidden="true">AI</span>
       <span class="brand-name">Ali Iqrash<span class="brand-dot">.</span></span>
     </a>
@@ -284,11 +286,16 @@
     </div>
 
     <figure class="portrait">
-      <img src="images/profiles-800.jpg"
-           srcset="images/profiles-400.jpg 400w, images/profiles-800.jpg 800w, images/profiles.jpg 1200w"
-           sizes="(min-width: 900px) 400px, 88vw"
-           width="1200" height="1200"
-           alt="Ali Iqrash, System Engineer bei der Deutschen Telekom in Bonn" fetchpriority="high" decoding="async" />
+      <picture>
+        <source type="image/webp"
+                srcset="images/profiles-480.webp 480w, images/profiles-720.webp 720w, images/profiles-960.webp 960w"
+                sizes="(min-width: 900px) 400px, 88vw" />
+        <img src="images/profiles-960.jpg"
+             srcset="images/profiles-480.jpg 480w, images/profiles-960.jpg 960w"
+             sizes="(min-width: 900px) 400px, 88vw"
+             width="960" height="1200"
+             alt="Ali Iqrash, System Engineer bei der Deutschen Telekom in Bonn" fetchpriority="high" decoding="async" />
+      </picture>
       <figcaption class="portrait-caption">
         <span class="portrait-name">Ali Iqrash</span>
         <span class="portrait-role">5G-Gerätezertifizierung · GNT</span>
@@ -528,11 +535,11 @@
       <ul class="cert-list" role="list">
         <li>
           <span class="cert-name">KI-Agenten &amp; Automatisierung</span>
-          <span class="cert-meta">Explorer Journey · Herbst 2026 · <a href="docs/certificates/ai-agents-automation-explorer-autumn-2026.pdf" target="_blank" rel="noopener">Zertifikat ↗</a></span>
+          <span class="cert-meta">Explorer Journey · Herbst 2026 · <a href="docs/certificates/ai-agents-automation-explorer-autumn-2026.pdf" target="_blank" rel="noopener">Zertifikat<span class="sr-only"> — KI-Agenten &amp; Automatisierung Explorer (PDF)</span> ↗</a></span>
         </li>
         <li>
           <span class="cert-name">ISTQB® Certified Tester</span>
-          <span class="cert-meta">Foundation Level · März 2024 · <a href="docs/certificates/istqb-ctfl-2024.pdf" target="_blank" rel="noopener">Zertifikat ↗</a></span>
+          <span class="cert-meta">Foundation Level · März 2024 · <a href="docs/certificates/istqb-ctfl-2024.pdf" target="_blank" rel="noopener">Zertifikat<span class="sr-only"> — ISTQB CTFL Foundation Level (PDF)</span> ↗</a></span>
         </li>
         <li>
           <span class="cert-name">OpenCV Python</span>
@@ -540,7 +547,7 @@
         </li>
         <li>
           <span class="cert-name">HCIP LTE</span>
-          <span class="cert-meta">Huawei Certified ICT Professional · 2020 · <a href="docs/certificates/hcip-lte-2020.pdf" target="_blank" rel="noopener">Zertifikat ↗</a></span>
+          <span class="cert-meta">Huawei Certified ICT Professional · 2020 · <a href="docs/certificates/hcip-lte-2020.pdf" target="_blank" rel="noopener">Zertifikat<span class="sr-only"> — HCIP LTE (PDF)</span> ↗</a></span>
         </li>
         <li>
           <span class="cert-name">DAAD-Stipendium</span>
