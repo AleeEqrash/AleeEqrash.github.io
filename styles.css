@@ -705,7 +705,6 @@ h3 { font-size: 1.12rem; line-height: 1.35; }
   border-radius: var(--radius);
   background: var(--surface);
   overflow: hidden;
-  transition: border-color 0.2s ease;
 }
 .job:hover { border-color: var(--line-strong); }
 .job[open] { border-color: color-mix(in srgb, var(--accent) 28%, var(--line)); }
@@ -759,7 +758,7 @@ h3 { font-size: 1.12rem; line-height: 1.35; }
 }
 .job-company { font-size: 0.85rem; color: var(--muted); }
 
-.chev { flex: none; color: var(--faint); transition: transform 0.22s ease, color 0.22s ease; }
+.chev { flex: none; color: var(--faint); transition: transform 0.22s ease; }
 .job[open] > summary .chev { transform: rotate(180deg); color: var(--accent); }
 
 .job-body { padding: 0 20px 22px; }
